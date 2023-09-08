@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(wallpaper2.jpg) ;
+    background-size: cover;
+
+}
+.container{
+    height: 400px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    /* display: flex; */
+    margin-left: 400px;
+    margin-top: 100px;
+    overflow: hidden;
+    
+}
+h1{
+    margin-bottom: 80px;
+    text-align: center;
+    color: #777;
+}
+.container form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    /* padding-bottom: 10px; */
+    transition: 0.5s;
+
+    
+}
+form input{
+    width: 270px;
+    padding: 10px,5px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin-bottom: 15px;
+    margin-right: 1px;
+    margin-left: 15px;
+
+}
+::placeholder{
+    color: #777;
+    /* padding-left: 20px; */
+}
+.btn{
+    width: 100%;
+    margin: 30px auto;
+    /* margin-left: 150px; */
+    text-align: center;
+}
+
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0px 10px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+#form1{ 
+
+    left: -450px;
+    /* padding-left: 450px; */
+}
+
+#form2{
+    /* padding-left: 450px; */
+    left: 40px;
+}
+#form3{
+    
+    left: 450px;
+    /* padding-left: 450px; */
+}
+.step-row{
+    height: 40px;
+    width: 100%;
+    margin: o auto;
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+    
+}
+.step-col{
+    width: 120px;
+    text-align: center;
+    position: relative;
+    color: #333;
+
+}
+#progress{
+    height: 45px;
+    width: 120px;
+    position: absolute;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+}
